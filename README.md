@@ -1,17 +1,33 @@
-Projeto Mega Sena - Android
+# Projeto Mega Sena - Android
 
-Este projeto foi desenvolvido como uma atividade utilizando Java no Android Studio. O objetivo é simular um sorteio da Mega Sena de forma simples.
+Este projeto foi desenvolvido como uma atividade utilizando Java no Android Studio. O objetivo do aplicativo é simular um sorteio simples da Mega Sena, gerando números aleatórios quando o usuário pressiona um botão.
 
-O aplicativo possui 6 campos de números organizados em um grid (3x2) e dois botões:
+## Como funciona
 
-Sorteio: gera 6 números aleatórios entre 1 e 60 e mostra na tela.
+Na tela principal existem 6 campos de números organizados em um grid (3x2). Cada campo mostra um número sorteado.
 
-Limpar: limpa os números exibidos.
+O aplicativo possui dois botões:
 
-Estrutura do projeto
+**Sorteio**
+Gera 6 números aleatórios entre 1 e 60 e mostra nos campos da tela.
 
-MainActivity.java: contém a lógica do sorteio e limpeza dos números.
+**Limpar**
+Remove os números exibidos e deixa os campos vazios novamente.
 
-activity_main.xml: define a interface do aplicativo.
+## Estrutura do projeto
 
-Este projeto foi feito apenas para praticar conceitos básicos de desenvolvimento Android, como interface gráfica, botões e geração de números aleatórios.
+**MainActivity.java**
+Responsável pela lógica do aplicativo, como gerar os números aleatórios e limpar os campos.
+
+**activity_main.xml**
+Responsável pela interface do aplicativo, onde ficam definidos os botões, textos e layout dos números.
+
+## Tecnologias utilizadas
+
+Java
+Android Studio
+XML
+
+## Objetivo
+
+Praticar conceitos básicos de desenvolvimento Android, como criação de interface, uso de botões e geração de números aleatórios.
